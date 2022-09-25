@@ -1,0 +1,12 @@
+.showHidePass{
+    cursor: pointer;
+}
+
+.loginPage{
+    height: 100vh;
+}
+
+.toastBody, .errIcon{
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+.mesHeader{
+    height: 64px;
+    width: 100%;
+    display: flex;
+}
+
+.mesBody{
+    height: calc(100% - 64px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 10px;
+}
+
+.allMesg{
+    height: calc(100% - 55px);
+    overflow-y: scroll;
+    scrollbar-color: rgb(6, 122, 230) #eee;
+    scrollbar-width: thin;
+}
+
+.mesInput{
+    height: 52px;
+}
+
+.mesInputBox > button{
+  height: 38px;
+}
+
+.features>i{
+  cursor: pointer;
+}
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #eee;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(6, 122, 230);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(3, 82, 155);
+  } 
+

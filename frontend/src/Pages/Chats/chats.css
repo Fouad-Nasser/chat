@@ -1,0 +1,62 @@
+.chats{
+    height: 100vh;
+}
+
+.chatsHeader{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatsBody{
+    height: calc(100vh - 98px);
+}
+
+.userChatName{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chatList{
+    height: 98%;
+    width: 90%;
+}
+
+.chatListHeader{
+    height: 84px;
+}
+
+.listGroup{
+    height: calc(100% - 90px);
+    margin: 5px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(6, 122, 230) #eee;
+    scrollbar-width: thin;
+}
+
+.mesgBox{
+    height: 98%;
+    width: 100%;
+    margin: 20px;
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #eee;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(6, 122, 230);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(3, 82, 155);
+  } 
